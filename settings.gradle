@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Sandbox"
+include ':app'
+include ':Compose'
+include ':CustomView'
+include ':RecyclerView'
+include ':heroapp'
+include ':ViewPager2URL'
+include ':Location'
+include ':Translate'
